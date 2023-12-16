@@ -20,6 +20,28 @@ This project is developed using TDD, a software development process where the te
 
 If you want to contribute, I highly welcome it. Please get in touch with me so we can exchange Ideas for the Project.
 
+## Setup Development Environment
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en/) (v14.15.4 or higher)
+
+### Setup
+
+1. Clone the repository
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run tests
+
+```bash
+npm run test
+```
+
 ## License
 
 This project is licensed under the terms of the GNU General Public License v3.0.
