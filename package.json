@@ -13,5 +13,9 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
     "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "pixi.js": "^7.4.0",
+    "tweedle.js": "^2.1.0"
   }
 }
