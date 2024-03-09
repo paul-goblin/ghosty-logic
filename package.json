@@ -10,14 +10,15 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@pixi/node": "^7.3.0",
     "jsdom": "^24.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
     "vitest": "^0.34.6"
   },
   "dependencies": {
-    "pixi.js": "^7.4.0",
+    "@pixi/node": "^7.0.0",
+    "gl": "^8.0.2",
+    "pixi.js": "^8.0.1",
     "tweedle.js": "^2.1.0"
   }
 }

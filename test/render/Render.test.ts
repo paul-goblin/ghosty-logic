@@ -1,12 +1,10 @@
-/**
- * @vitest-environment jsdom
- */
 
-import { Application } from '@pixi/node';
+import { Application } from 'pixi.js';
 import { describe, it } from 'vitest';
 
-describe('Render', function() {
-  it('should be able to create a Render instance', async function() {
-    new Application();
+describe('Pixi App', function() {
+  it('should work!', async function() {
+    const app = new Application();
+    await app.init();
   });
 });

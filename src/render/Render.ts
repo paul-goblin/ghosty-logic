@@ -2,17 +2,14 @@ import { Application } from 'pixi.js'
 import { TweedleScene } from './scenes/TweedleScene';
 
 export class Render {
-	private app: Application;
+	app: Application;
 
 	constructor() {
-		this.app = new Application({
-			view: document.getElementById("pixi-canvas") as HTMLCanvasElement,
-			resolution: window.devicePixelRatio || 1,
-			autoDensity: true,
-			backgroundColor: 0x6495ed,
-			width: 640,
-			height: 480
-		});
+		this.app = new Application();
+	}
+
+	async init() {
+		await this.app.init()
 	}
 
 	loadTweedleScene() {
